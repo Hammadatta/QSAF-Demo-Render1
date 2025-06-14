@@ -1,0 +1,7 @@
+services:
+  - name: QSAF-WebUI
+    type: web
+    env: docker
+    plan: free
+    dockerCommand: docker-compose up --build
+    autoDeploy: true
